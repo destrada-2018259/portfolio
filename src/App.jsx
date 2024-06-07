@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Hero } from './components/Hero'
 import { Skills } from './components/Skills'
+import { Grid } from './components/Grid'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Hero />
       <Skills />
+      <Grid />
     </>
   )
 }
