@@ -6,10 +6,9 @@ import celtics from "../assets/celtics.jpeg"
 import nihongo from "../assets/nihongo.jpeg"
 import progra from "../assets/progra.jpeg"
 import rubik from "../assets/rubik.jpeg"
-import chess from "../assets/chess.jpeg"
 import anime from "../assets/anime.jpeg"
 import mk1 from "../assets/mk1.jpeg"
-
+import pochita from "../assets/pochita.jpeg"
 
 export function Grid() {
     return (
@@ -36,7 +35,7 @@ const items = [
         header: <img className="size-full self-center rounded-lg justify-center m-auto md:mt-auto mt-6 opacity-80 hover:opacity-100" src={progra} alt="" />,
     },
     {
-        header: <img className="size-full self-center rounded-lg md:mt-auto mt-6 opacity-80 hover:opacity-100" src={mk1} alt="" />,
+        header: <img className="size-full self-center rounded-lg md:mt-auto mt-6 opacity-80 hover:opacity-100" src={pochita} alt="" />,
 
     },
     {
