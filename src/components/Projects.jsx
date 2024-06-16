@@ -1,6 +1,8 @@
 
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/ProjectCards";
+import pokedex from "../assets/pokedex.png";
+import project from "../assets/project.png";
 
 
 export function Projects() {
@@ -27,7 +29,7 @@ export function Projects() {
             </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <img
-              src="https://private-user-images.githubusercontent.com/106627911/328312614-a5fc8cb4-f27f-49cd-91b7-000b69773e2e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgzMzk5MzQsIm5iZiI6MTcxODMzOTYzNCwicGF0aCI6Ii8xMDY2Mjc5MTEvMzI4MzEyNjE0LWE1ZmM4Y2I0LWYyN2YtNDljZC05MWI3LTAwMGI2OTc3M2UyZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxNFQwNDMzNTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hOTYwM2Q2OGJkMGYxZGNiODMzNTA3NDc2YmQzZjcyMTM1ZjdmM2E1NDNiZjkyNjc1MDk4MmFmNDk1MGI5MDg4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZM7j33VjLkeRKP5CAikmyMveAyRXASs41TYM30j4gxw"
+              src={pokedex}
               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
               alt="pokedex"
             />
@@ -71,7 +73,7 @@ export function Projects() {
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <img
-              src="https://private-user-images.githubusercontent.com/106627911/329125626-1c8cfa24-c4a2-4f7f-b1d7-702c0e386486.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgzNDExODQsIm5iZiI6MTcxODM0MDg4NCwicGF0aCI6Ii8xMDY2Mjc5MTEvMzI5MTI1NjI2LTFjOGNmYTI0LWM0YTItNGY3Zi1iMWQ3LTcwMmMwZTM4NjQ4Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxNFQwNDU0NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZDVkYWI1YzRlZWZkNmJiMWEwZTA5NzkxNGM1MjZkOTZiZjJiMjY2OGY2MzBmMmQ4ZThmMGZkYzYxYzNkN2YyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.xIv0LMDy3pPdclMc-CqMs4hhM3UmNkNnXPzQUEP-yWc"
+              src={project}
     
               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
               alt="react-web-app"
