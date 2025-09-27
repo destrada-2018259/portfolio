@@ -25,7 +25,7 @@ export const Hero = () => {
 
                         <a href='https://www.linkedin.com/in/daniel-rojo-dev/' target='blank' className='bg-[#3368fa] hover:bg-[#2d3dcc] md:w-[150px] w-[300px] rounded-md font-medium md:my-6 my-2 mt-10 mx-auto py-3 text-[#f1f1f1] hover:cursor-pointer hover:scale-105 duration-300 flex justify-center ' ><FaLinkedin size={30} className='mx-1' /><span className='mx-1'> LinkedIn</span></a>
                         <a href='https://github.com/destrada-2018259' target='blank' className='bg-[#3368fa] hover:bg-[#2d3dcc] md:w-[150px] w-[300px] rounded-md font-medium md:my-6 my-2 mx-auto py-3 text-[#f1f1f1] hover:cursor-pointer hover:scale-105 duration-300 flex justify-center' > <FaGithub size={30} className='mx-1' /><span className='mx-1'> Github</span>  </a>
-                        <a href='../../cv-en.pdf' download  className='bg-[#3368fa] hover:bg-[#2d3dcc] md:w-[150px] w-[300px] rounded-md font-medium md:my-6 my-2 mx-auto py-3 text-[#f1f1f1] hover:cursor-pointer hover:scale-105 duration-300 flex justify-center ' ><FaFilePdf size={30} className='mx-1' /><span className='mx-1'> Resume</span></a>
+                        <a href='../../cv-es.pdf' download  className='bg-[#3368fa] hover:bg-[#2d3dcc] md:w-[150px] w-[300px] rounded-md font-medium md:my-6 my-2 mx-auto py-3 text-[#f1f1f1] hover:cursor-pointer hover:scale-105 duration-300 flex justify-center ' ><FaFilePdf size={30} className='mx-1' /><span className='mx-1'> Resume</span></a>
                     </div>
                 
             </div>
